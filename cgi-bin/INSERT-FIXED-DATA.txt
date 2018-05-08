@@ -1,0 +1,21 @@
+use jadrn024;
+
+INSERT INTO category (name)  VALUES('Earbud');
+INSERT INTO category (name)  VALUES('Over-ear');
+INSERT INTO category (name)  VALUES('On-ear');
+INSERT INTO category (name)  VALUES('Bluetooth');
+INSERT INTO category (name)  VALUES('Sports');
+INSERT INTO category (name)  VALUES('Noise-cancelling');
+INSERT INTO category (name)  VALUES('Pro audio');
+
+INSERT INTO vendor (name)  VALUES('Beats');	
+INSERT INTO vendor (name)  VALUES('Bose'); 
+INSERT INTO vendor (name)  VALUES('Panasonic');
+INSERT INTO vendor (name)  VALUES('Sony'); 
+INSERT INTO vendor (name)  VALUES('TaoTronics'); 
+INSERT INTO vendor (name)  VALUES('VAVA'); 
+INSERT INTO vendor (name)  VALUES('Skullcandy');
+INSERT INTO vendor (name)  VALUES('Mpow');
+
+INSERT INTO product VALUES('ABC-123',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO product VALUES('DEF-123',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);

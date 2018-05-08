@@ -1,0 +1,86 @@
+/*   
+Nagendra, Sathyasagar    
+ Account:  jadrn024
+Class: CS645, Spring 2018
+Assignment :  Project #1 */ 
+
+html,body { margin: 0; }
+
+.product_imageFromDB{
+	width: 150px;
+	height: auto;
+	margin: 8px;
+}
+
+.validity{
+    font-family: "Times New Roman", Times, serif;
+    color: #dc3545;
+}
+
+#status{
+    font-family: "Times New Roman", Times, serif;
+    color: #dc3545;
+}
+
+div#tabs-1 {
+    height: auto;
+    background: #DFD;
+    border: 1px solid #009;
+    padding: 5px;
+}
+div#tabs-2 {
+    height: auto;
+    background: #FFD;
+    border: 1px solid #009;    
+    padding: 5px;
+}
+div#tabs-3 {
+    height: auto;
+    background: #FDD;
+    border: 1px solid #009;    
+    padding: 5px;
+}
+
+.ui-tabs-hide {
+    display: none;
+}
+
+div#tabs {
+    margin: 0 40px 0 40px;s
+    height: 800px;
+    min-width:500px;
+    }
+    
+div#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 31px;
+    border-bottom: 1px solid #000;
+}
+
+div#tabs ul li {
+    float: left;
+    height: 30px;
+    padding: 4px 10px 0 10px;
+    margin-right: 5px;
+    border: 1px solid #CCC;
+    border-bottom: none;
+    position: relative;
+    background: #AAA;
+}
+div#tabs ul li a {
+    text-decoration: none;
+    color: black;
+}
+div#tabs ul li.ui-tabs-selected {
+    background: #CCC;
+}
+div#tabs ul li.ui-tabs-selected a {
+    color: white;
+}
+
+.center-div{
+    margin: 0 auto;
+    width:60%;
+}
